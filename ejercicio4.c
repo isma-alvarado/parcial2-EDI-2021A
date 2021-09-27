@@ -106,7 +106,7 @@ void BuscarValor(int num1,int num2,int matrizdos[RENGLON][COLUMNA])
 	}
 	 printf("\n");
 
- printf("\n la posicion del numero mayor es: [%d][%d]",i,j);
+ printf("\n la posicion del numero mayor es: [%d][%d]",ren,col);
 
 
                 printf("\n El mayor numero es: %d \n",mayor);
