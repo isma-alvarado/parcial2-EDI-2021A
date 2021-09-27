@@ -14,7 +14,7 @@ int main()
 	int ren,col;
 	int matriz[RENGLON][COLUMNA];
 
-	printf("\n Dime el numero de los Renglones: \n");
+	printf("\nDime el numero de los Renglones: \n");
 	scanf("%d",&ren);
 
 
