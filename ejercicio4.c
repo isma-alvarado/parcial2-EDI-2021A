@@ -81,25 +81,24 @@ void LlenarMatriz(int num1,int num2,int matrizdos[RENGLON][COLUMNA])
 
 void BuscarValor(int num1,int num2,int matrizdos[RENGLON][COLUMNA])
 {
-    int  mayor=matrizdos[0][0];   //Este compara todos los valores
-    int  posicion[0][0];
-	int i , j;
+    int  mayor=0;   //Este compara todos los valores
+
+	int i,j,ren,col;
 
 	for(i=0;i<num1;i++)
 	{
 	      for(j=0;j<num2;j++)
      	{
 
-        if(mayor<matrizdos[i][j])
+        if(matrizdos[i][j]>mayor)
          {
 
              mayor=matrizdos[i][j];
 
-                 system("cls");
-               printf("\n la posicion del numero mayor es: [%d][%d]",i+1,j+1);
+              ren=i+1;
+              col=j+1;
 
 
-                printf("\n El mayor numero es: %d \n",mayor);
          }
 
      	}
@@ -107,7 +106,10 @@ void BuscarValor(int num1,int num2,int matrizdos[RENGLON][COLUMNA])
 	}
 	 printf("\n");
 
+ printf("\n la posicion del numero mayor es: [%d][%d]",i,j);
 
+
+                printf("\n El mayor numero es: %d \n",mayor);
 
   printf("\n");
 }
