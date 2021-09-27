@@ -33,7 +33,7 @@ int main()
 
 	{
      printf("\n");
-	printf("Demasiado grande, dime un numero mas chico");
+	printf("Demasiado grande, dime un numero mas chico ");
      printf("\n");
 
 	}
