@@ -16,7 +16,7 @@ int main()
 	int verdadero;
 	int matriz[RENGLON][COLUMNA];
 
-	printf("\n Dime el numero de los Renglones: \n");
+	printf("\nDime el numero de los Renglones: \n");
 	scanf("%d",&ren);
 
 
@@ -47,7 +47,7 @@ int main()
 
         }
     else{
-        printf("\n no es simetrica  \n\n");
+        printf("\n no es simetrica por que no es cuadrada  \n\n");
 
 
 
